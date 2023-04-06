@@ -45,7 +45,7 @@ export default function Experience() {
             </PivotControls>
             {/*<TransformControls object={sphereRef} mode={'translate'}/>*/}
 
-            <mesh ref={boxRef} position-x={2} castShadow>
+            <mesh ref={boxRef} position-x={2} castShadow    >
                 <boxGeometry/>
                 <meshStandardMaterial color={'#bafd66'}/>
             </mesh>
